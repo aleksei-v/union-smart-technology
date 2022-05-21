@@ -41,7 +41,10 @@ img {
 .link {
     text-decoration: none;
 }
-
+body {
+    font-family: 'Nanum Gothic';
+   
+}
 // @media screen and (max-width: 1199px) {
 //     .section {
 //         padding-top: 60px;
@@ -55,3 +58,15 @@ img {
 //         padding-bottom: 94px;
 //     }
 // }
+.accent-button {
+        padding: 14px 10px;
+        border: none;
+        min-width: 206px;
+        height: 48px;
+        font-weight: 350;
+        font-size: 16px;
+        line-height: 19px;
+        letter-spacing: 0.02em;
+        background: var(--accent-color);
+        color: var(--light-title-color);
+}

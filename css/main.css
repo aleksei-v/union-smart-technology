@@ -42,6 +42,23 @@ img {
   text-decoration: none;
 }
 
+body {
+  font-family: 'Nanum Gothic';
+}
+
+.accent-button {
+  padding: 14px 10px;
+  border: none;
+  min-width: 206px;
+  height: 48px;
+  font-weight: 350;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.02em;
+  background: var(--accent-color);
+  color: var(--light-title-color);
+}
+
 .container {
   padding-left: 15px;
   padding-right: 15px;
@@ -59,5 +76,30 @@ img {
   .container {
     width: 1470px;
   }
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+}
+
+:root {
+  --accent-color: #1E74EC;
+  --major-text-color: #535670;
+  --secondary-text-color: #DDDDE2;
+  --light-title-color: #EEEFF1;
+  --blue-title-color: #03115F;
+  --secondary-title-color: #35417F;
+  --additional-text-color: #A960AB;
+  --light-background: #FFFFFF;
+  --gray-background: #E6E8EF;
+  --decription-color: #75788D;
+  --secondary-decription-color: #989AA9;
 }
 /*# sourceMappingURL=main.css.map */
